@@ -1,12 +1,16 @@
 .list {
   display: flex;
   flex-wrap: wrap;
-  gap: 20px;
-  margin: 20px 12px;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin: 0;
+  width: 100%;
 }
 
 .listItem {
-  width: calc((100% - 20px * 4) / 5);
+  width: 290px;
+  height: auto;
   display: flex;
   justify-content: space-between;
   align-items: center;

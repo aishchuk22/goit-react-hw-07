@@ -31,12 +31,12 @@ const ContactForm = () => {
         <Form className={s.form}>
           <label className={s.label}>
             Name
-            <Field type='text' name='name' className={s.input}/>
+            <Field type='text' name='name' className={s.input} placeholder='E.g. John Snow'/>
             <ErrorMessage name='name' className={s.error} component='p' />
           </label>
           <label className={s.label}>
             Number
-            <Field type='text' name='number' className={s.input}/>
+            <Field type='text' name='number' className={s.input} placeholder='123-456-7890'/>
             <ErrorMessage name='number' className={s.error} component='p' />
           </label>
           <button className={s.formBtn} type='submit'>
